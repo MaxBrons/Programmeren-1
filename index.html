@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="styles.css">
+    <title>Formulieren</title>
+  </head>
+  <body>
+    <header>
+          <h1 id="Form">Formulieren</h1>
+    </header>
+    <main>
+      <p>Dit formulier stelt wat vragen over uw mening van verschillende onderwerpen.</p>
+      <form action="http://bla.hosts.ma-cloud.nl/pop.php" method="get">
+        <p>Vul hier je naam in</p>
+        <input id="username" type="text" name="Username" placeholder="Bv. Jan Jansen" autofocus required><br>
+        <select class="klas" name="klasKeuze" required>
+          <option value="">Selecteer jouw klas</option>
+          <option value="MG1A">MG1A</option>
+          <option value="MG1B">MG1B</option>
+          <option value="MG1C">MG1C</option>
+          <option value="MG1D">MG1D</option>
+        </select>
+
+      <fieldset class="Vragen1">
+        <legend>welbevinden</legend>
+        <div class="welbevinden">
+          <p>Hoe positief ben je op dit moment over je opleiding?</p>
+          <label>1<input type="radio" name="positiviteit opleiding" value="1" required></label>
+          <label>2<input type="radio" name="positiviteit opleiding" value="2" required></label>
+          <label>3<input type="radio" name="positiviteit opleiding" value="6" required></label>
+          <label>4<input type="radio" name="positiviteit opleiding" value="3" required></label>
+          <label>5<input type="radio" name="positiviteit opleiding" value="4" required></label>
+          <label>6<input type="radio" name="positiviteit opleiding" value="5" required></label>
+          <label>7<input type="radio" name="positiviteit opleiding" value="7" required></label>
+          <label>8<input type="radio" name="positiviteit opleiding" value="8" required></label>
+          <label>9<input type="radio" name="positiviteit opleiding" value="9" required></label>
+          <label>10<input type="radio" name="positiviteit opleiding" value="10" required></label>
+        </div>
+        <div class="motivatie">
+          <p>Hoe gemotiveerd ben je om de opleiding af te maken?</p>
+          <label>1<input type="radio" name="motivatie" value="1" required></label>
+          <label>2<input type="radio" name="motivatie" value="2" required></label>
+          <label>3<input type="radio" name="motivatie" value="3" required></label>
+          <label>4<input type="radio" name="motivatie" value="4" required></label>
+          <label>5<input type="radio" name="motivatie" value="5" required></label>
+          <label>6<input type="radio" name="motivatie" value="6" required></label>
+          <label>7<input type="radio" name="motivatie" value="7" required></label>
+          <label>8<input type="radio" name="motivatie" value="8" required></label>
+          <label>9<input type="radio" name="motivatie" value="9" required></label>
+          <label>10<input type="radio" name="motivatie" value="10" required></label>
+        </div>
+        <div class="vertrouwen">
+          <p>Hoeveel vertrouwen heb je momenteel in je eigen kunnen?</p>
+          <label>1<input type="radio" name="vertrouwen" value="1" required></label>
+          <label>2<input type="radio" name="vertrouwen" value="2" required></label>
+          <label>3<input type="radio" name="vertrouwen" value="3" required></label>
+          <label>4<input type="radio" name="vertrouwen" value="4" required></label>
+          <label>5<input type="radio" name="vertrouwen" value="5" required></label>
+          <label>6<input type="radio" name="vertrouwen" value="6" required></label>
+          <label>7<input type="radio" name="vertrouwen" value="7" required></label>
+          <label>8<input type="radio" name="vertrouwen" value="8" required></label>
+          <label>9<input type="radio" name="vertrouwen" value="9" required></label>
+          <label>10<input type="radio" name="vertrouwen" value="10" required></label>
+        </div>
+    </fieldset>
+    <fieldset class="Vragen2">
+      <legend>sterke kanten</legend>
+          <p>Wat zijn jouw sterke kanten?</p>
+          <label >Coderen in HTML/CSS<input id="CIHC1" type="checkbox" name="sterke_kanten_HTML/CSS" value="HTML/CSS" ></label>
+          <label >Programmeren in Java<input id="PIJ1" type="checkbox" name="sterke_kanten_Java" value="Java" ></label>
+          <label >cripting: programmeren in JavaSript<input id="PIJS1" type="checkbox" name="sterke_kanten_JavaScript" value="JavaScript" ></label>
+          <label >Planning<input id="Planning1" type="checkbox" name="sterke_kanten_Planning" value="Planning" ></label>
+          <label >Samenwerking<input id="Samenwerking1" type="checkbox" name="sterke_kanten_Samenwerking" value="Samenwerking" ></label>
+    </fieldset>
+    <fieldset class="Vragen3">
+      <legend>Nog te ontwikkelen</legend>
+      <p>Aan welke skills moet je nog extra aandacht besteden?</p>
+      <label>Coderen in HTML/CSS<input id="CIHC" type="checkbox" name="aandacht_skills_HTML/CSS" value="HTML/CSS" ></label>
+      <label>Programmeren in Java<input id="PIJ" type="checkbox" name="aandacht_skills_Java" value="Java" ></label>
+      <label>cripting: programmeren in JavaSript<input id="PIJS" type="checkbox" name="aandacht_skills_JavaScript" value="JavaScript" ></label>
+      <label>Planning<input id="Planning" type="checkbox" name="aandacht_skills_Planning" value="Planning" ></label>
+      <label>Samenwerking<input id="Samenwerking" type="checkbox" name="aandacht_skills_Samenwerking" value="Samenwerking" ></label>
+    </fieldset>
+    <fieldset>
+      <legend>Extra</legend>
+      <p>Welk programmeervak ben jij goed in?</p>
+      <label>Programmeren 1<input id="pro1" type="checkbox" name="Goed_in_Pro1" value="Pro1" ></label>
+      <label>Programmeren 2<input id="pro2" type="checkbox" name="Goed_in_Pro2" value="Pro2" ></label>
+
+    </fieldset>
+    <div class="suggestiesText">
+      <p>Wat zijn jouw plannen voor de toekomst?</p>
+      <textarea name="suggesties" rows="8" cols="55"></textarea>
+    </div>
+    <input id="Submit" type="submit" name="submit" value="Submit">
+  </form>
+    </main>
+    <footer class="validatie">
+
+      <a href="http://validator.w3.org/check?uri=referer" target="_blank">
+        <img src="https://blanken5.home.xs4all.nl/afb/valid-html5-blue.png" alt="Valide HTML5"></a>
+      <a href="http://jigsaw.w3.org/css-validator/check/referer" target="_blank">
+        <img src="http://jigsaw.w3.org/css-validator/images/vcss-blue.gif" alt="Valide CSS">
+      </a>
+
+    </footer>
+
+  </body>
+  <script>
+  </script>
+</html>

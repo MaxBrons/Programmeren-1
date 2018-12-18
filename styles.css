@@ -1,0 +1,48 @@
+#Form{
+text-align: center;
+  }
+#username{
+  margin-bottom: 2px;
+  border: 3px solid lightblue;
+}
+
+.Login{
+  padding: 3px;
+  border-left: 6px solid darkred;
+  padding-bottom: 20px;
+  margin-bottom: 20px;
+}
+p .Login{
+  margin-bottom: 0px;
+}
+.Vragen1,.Vragen2,.Vragen3{
+  border: 2px solid black;
+  margin-top: 20px;
+}
+.vrg1,.vrg2,.vrg3,.vrg5{
+padding-bottom: 15px;
+}
+.suggestiesText{
+margin-left: 10px;
+}
+
+.validatie{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+#Submit{
+margin-left: 10px;
+}
+
+ .welbevinden label, .vertrouwen label, .motivatie label{
+  display: inline-block;
+  background-color: grey;
+  border-radius: 1em;
+  font-size: 1.5em;
+  padding: 1em;
+  text-align: center;
+}
+
+input[type="radio"]{
+  display: block;
+}

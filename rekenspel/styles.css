@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding:0;
+  background-color: rgba(20, 100, 0, 0.5);
+}
+#wrapper{
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-top: 10%;
+  padding: 1em;
+  height: 100%;
+  border: 10px solid orange;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 1.5em;
+  border-top-right-radius: 3em;
+  background-color: white;
+}
+#rekenspel{
+  width: 3.5em;
+  margin-left:40%;
+  margin-right: auto;
+}
+#myAssignment{
+  color: green;
+  font-size: 1.5em;
+  font-family: 'Kalam';
+  font-weight: bold;
+}
+#feedback{
+  width: 100%;
+  margin: auto;
+}
+#winLoseText{
+  text-align: center;
+  font-size: 4em;
+  font-family: "sans-serif";
+}
+#x{
+  font-family: "Comic Sans MS";
+}

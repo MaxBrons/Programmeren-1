@@ -3,6 +3,11 @@ const myAssignment = document.getElementById("myAssignment");
 const myAnswer = document.getElementById("myAnswer");
 const feedback = document.getElementById("feedback");
 const winLoseText = document.getElementById("winLoseText");
+let goed = document.getElementById("good");
+let fout = document.getElementById("wrong");
+
+let good = 0;
+let wrong = 0;
 
 let mySum;
 let sound = new Audio();
@@ -24,6 +29,8 @@ function keyPressed(evt){
       winLoseText.style.color = "green";
       sound.src = "img/victory.mp3";
       sound.play();
+      good++;
+      goed.innerHTML = good;
     }
     else {
       myAnswer.style.backgroundColor = "red";
@@ -32,6 +39,8 @@ function keyPressed(evt){
       winLoseText.style.color = "red";
       sound.src = "img/wrong.mp3";
       sound.play();
+      wrong++;
+      fout.innerHTML = wrong;
     }
     window.setTimeout(waiting, 2500);
 

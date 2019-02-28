@@ -3,11 +3,46 @@ body{
   padding:0;
   background-color: rgba(20, 100, 0, 0.5);
 }
+
+header.score{
+  float: right;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+header.score:hover{
+  background-color: #AD310B;
+  -webkit-transition: background-color 250ms linear;
+  -ms-transition: background-color 250ms linear;
+  transition: background-color 250ms linear;
+  cursor: default;
+}
+
+header p{
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+header{
+  overflow: hidden;
+  width: 100%;
+  display: block;
+  background-color: darkred;
+  height: auto;
+  margin-bottom: 1em;
+  padding-left: 3em;
+}
+
 #wrapper{
   margin-left: 30%;
   margin-right: 30%;
-  margin-top: 10%;
-  padding: 1em;
+  padding-left: 1em;
   height: 100%;
   border: 10px solid orange;
   border-bottom-right-radius: 0;
